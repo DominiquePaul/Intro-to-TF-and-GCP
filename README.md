@@ -1,4 +1,8 @@
+<img src="https://siaw.unisg.ch/-/media/538460c65a8e4a018d00ee8b97bf8709.jpg" alt="SIAW logo" width="150" align="right">
+
 # Intro-to-TF-and-GCP
+
+<br>
 Material for a talk on getting started with Tensorflow and deploying a Python app with Flask on GCP for students of the 'Data Science Fundamentals' Course at the University of St. Gallen
 
 Link to Slides: [*No link available yet* ]
@@ -49,7 +53,13 @@ The course includes 6 short scripts which will be discussed. Currently these are
 
 **GCP-APIs.py**: Demonstration of the Google Cloud Platform APIs
 
-**Flask-App.py**:  How to create a small Flask app that can classify images and run it on a server with GCP
+**Flask-App.py**:  How to create a small Flask app that can classify images and run it on a server with GCP. 
+
+<br>
+
+
+
+
 
 
 
