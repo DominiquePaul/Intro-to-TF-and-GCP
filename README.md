@@ -1,4 +1,4 @@
-<img src="https://siaw.unisg.ch/-/media/538460c65a8e4a018d00ee8b97bf8709.jpg" alt="SIAW logo" width="150" align="right">
+<img src="https://siaw.unisg.ch/-/media/538460c65a8e4a018d00ee8b97bf8709.jpg" alt="SIAW logo" width="200" align="right">
 
 # Intro-to-TF-and-GCP
 
@@ -14,18 +14,17 @@ Link to Slides: [*No link available yet* ]
 This introduction is structured into three parts
 
 1. Introduction to Tensorflow *(30 minutes)*
-	1. Explanation on what Tensorflow is and who uses it
-	2. How you would build a simple regression with Tensorflow
-	3. Simplifying the process with Keras
-	4. Writing a basic Image classifier 
+	* Explanation on what Tensorflow is and who uses it
+	* How you would build a simple regression with Tensorflow
+	* Simplifying the process of creating a network with Keras
+	* Writing a basic Image classifier 
 2. Deploying a Flask App in the Cloud and making it accessible to third-parties *(20 minutes)*
 	* Products of the Cloud and explaining the industry shift towards it
 	* Auto-ML and the ML APIs
 	* Deploying a Python script as a Flask App with Google App Engine
-3. Starting-points to move towards Data Science with a non-technical background *(5 minutes)*
-	* Methodology and starting points
+3. Starting-points to move towards Data Science with a non-technical background *(5 minutes)
 	* Resources to get started
-	* Qwiklabs
+	* Getting a first Job in data sciences
 
 	
 ### Optional parts which could be added if the time suffices:
