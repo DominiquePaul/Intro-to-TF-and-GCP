@@ -2,6 +2,11 @@
 
 # Intro-to-TF-and-GCP
 
+To add:
+reminder to download the cats and dogs data from here:  
+https://www.kaggle.com/c/dogs-vs-cats
+
+
 <br>
 Material for a talk on getting started with Tensorflow and deploying a Python app with Flask on GCP for students of the 'Data Science Fundamentals' Course at the University of St. Gallen
 
