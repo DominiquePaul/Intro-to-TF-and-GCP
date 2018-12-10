@@ -3,17 +3,18 @@ import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten
 from tensorflow.keras.layers import Conv2D, MaxPooling2D
-import cv2
+# import cv2
 import numpy as np
 from skimage import io
-
+from skimage.color import rgb2gray
+from skimage.transform import resize
 IMG_SIZE = 64
 
 
 def load_from_url(link):
     img = io.imread(link)
-    img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    img = cv2.resize(img,(IMG_SIZE,IMG_SIZE))
+    img = rgb2gray(img)
+    img = resize(img, (IMG_SIZE, IMG_SIZE), anti_aliasing=True)
     img = tf.keras.utils.normalize(img, axis=1)
     img = img.reshape(-1, IMG_SIZE, IMG_SIZE, 1)
     return(img)

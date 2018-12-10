@@ -19,7 +19,7 @@ app = Flask(__name__)
 web_classifier = create_model()
 # Not using this causes an error (https://github.com/keras-team/keras/issues/6462)
 web_classifier._make_predict_function()
-web_classifier.load_weights("Model-Checkpoints/model-checkpoints2")
+web_classifier.load_weights("../Model-Checkpoints/model-checkpoints2")
 
 
 @app.route("/")
